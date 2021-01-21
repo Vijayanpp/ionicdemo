@@ -23,7 +23,7 @@ function Video({
   shares,
 }: IVideo) {
   const [playing, setPlaying] = useState(false);
-  const videoRef:any = useRef(null);
+  const videoRef: any = useRef(null);
   const onVideoPress = () => {
     if (playing) {
       videoRef.current.pause();
@@ -35,11 +35,11 @@ function Video({
   };
   return (
     <div className="video">
-      <video      
+      <video
         className="video__player"
         ref={videoRef}
         onClick={onVideoPress}
-        src="http://techslides.com/demos/sample-videos/small.mp4"
+        src={url}
         autoPlay
       ></video>
 

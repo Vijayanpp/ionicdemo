@@ -24,7 +24,7 @@ function App() {
                 description={description}
                 channel={channel}
                 song={song}
-                url="./video1.mp4"
+                url={url}
               />
             );
           }
