@@ -8,7 +8,7 @@
   }
   
   .app {
-    background-color: #000000;
+    background-color:#ccc;
     height: 100vh;
     display: grid;
     place-items: center;

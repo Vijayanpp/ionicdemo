@@ -22,6 +22,7 @@ function Video({
   messages,
   shares,
 }: IVideo) {
+ 
   const [playing, setPlaying] = useState(false);
   const videoRef: any = useRef(null);
   const onVideoPress = () => {
